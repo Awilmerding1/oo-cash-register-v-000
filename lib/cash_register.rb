@@ -26,11 +26,6 @@ class CashRegister
   end
 end
 
-def items
-  self.add_item(item, price, quantity=1)
-  @item_array << self.item
-@item_array
-end
 
 
 def void_last_transaction
