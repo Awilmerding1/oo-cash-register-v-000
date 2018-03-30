@@ -13,8 +13,9 @@ class CashRegister
     @price = price
     @quantity = quantity
     @total += price*quantity
-    split_item = @item.split*@quantity
-    self.item = split_item
+    self.item = @item.split*@quantity
+
+
     @items << self.item
   end
 
