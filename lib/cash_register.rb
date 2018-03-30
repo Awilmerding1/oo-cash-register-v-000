@@ -13,7 +13,7 @@ class CashRegister
     @price = price
     @quantity = quantity
     @total += price*quantity
-    self.item = @item
+    self.item = @item*@quantity
     @items << self.item
   end
 
